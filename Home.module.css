@@ -1,0 +1,19 @@
+/* Add this to your existing styles in styles/Home.module.css */
+
+/* Dropdown Styles */
+.selectBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .selectBox:focus {
+    outline: none;
+    border-color: #0070f3; /* Blue outline on focus */
+  }
+  
